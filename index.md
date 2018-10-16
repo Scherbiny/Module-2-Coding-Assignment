@@ -1,37 +1,275 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
 
-You can use the [editor on GitHub](https://github.com/Scherbiny/coursera1/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Module 2 Coding Assignment</title>
+</head>
+<style media="screen">
+/* Base Styles */
 
-### Markdown
+* {
+box-sizing: border-box;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+h1 {
+    text-align: center;
+    font-family: cursive;
 
-```markdown
-Syntax highlighted code block
+}
 
-# Header 1
-## Header 2
-### Header 3
+body {
+background-image: ;
+background-color: ;
 
-- Bulleted
-- List
+}
 
-1. Numbered
-2. List
+p {
+padding: 10px;
+margin: 0;
+font-family: cursive;
+}
 
-**Bold** and _Italic_ and `Code` text
+.container {
+border: none;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+}
 
-[Link](url) and ![Image](src)
-```
+section {
+border:	2px solid black;
+background-color: #808080;
+width: 100%;
+height: 200px;
+font-family: Helvetica;
+color: black;
+position: relative;
+overflow: auto;
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#chicken {
+border: 1px solid black;
+text-align: center;
+width: 30%;
+margin-left: 70%;
+font-family: cursive;
+font-weight: bold;
+font-size: 125%;
+margin-bottom: 0;
+margin-top: 0;
+padding: 5px;
+background-color: #E9967A;
+}
 
-### Jekyll Themes
+#beef {
+border: 1px solid black;
+text-align: center;
+width: 30%;
+margin-left: 70%;
+font-family: cursive;
+font-weight: bold;
+font-size: 125%;
+margin-bottom: 0;
+margin-top: 0;
+padding: 5px;
+background-color: #B22222;
+color: white;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Scherbiny/coursera1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#sushi {
+border: 1px solid black;
+text-align: center;
+width: 30%;
+margin-left: 70%;
+font-family: cursive;
+font-weight: bold;
+font-size: 125%;
+margin-bottom: 0;
+margin-top: 0;
+background-color: #F0E68C;
 
-### Support or Contact
+padding: 5px;
+}
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+.row {
+width: 100%;
+}
+
+/* Desktop view */
+
+@media (min-width: 992px) {
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  float: left;
+}
+
+.col-lg-1 {
+  width: 8.33%;
+}
+.col-lg-2 {
+  width: 16.66%;
+}
+.col-lg-3 {
+  width: 25%;
+}
+.col-lg-4 {
+  width: 33.33%;
+}
+.col-lg-5 {
+  width: 41.66%;
+}
+.col-lg-6 {
+  width: 50%;
+}
+.col-lg-7 {
+  width: 58.33%;
+}
+.col-lg-8 {
+  width: 66.66%;
+}
+.col-lg-9 {
+  width: 74.99%;
+}
+.col-lg-10 {
+  width: 83.33%;
+}
+.col-lg-11 {
+  width: 91.66%;
+}
+.col-lg-12 {
+  width: 100%;
+}
+
+}
+
+/* Tablet view */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  float: left;
+}
+
+.col-md-1 {
+  width: 8.33%;
+}
+.col-md-2 {
+  width: 16.66%;
+}
+.col-md-3 {
+  width: 25%;
+}
+.col-md-4 {
+  width: 33.33%;
+}
+.col-md-5 {
+  width: 41.66%;
+}
+.col-md-6 {
+  width: 50%;
+}
+.col-md-7 {
+  width: 58.33%;
+}
+.col-md-8 {
+  width: 66.66%;
+}
+.col-md-9 {
+  width: 74.99%;
+}
+.col-md-10 {
+  width: 83.33%;
+}
+.col-md-11 {
+  width: 91.66%;
+}
+.col-md-12 {
+  width: 100%;
+}
+}
+
+/* Mobile view */
+
+@media (max-width: 767px) {
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+float: left;
+}
+
+.col-sm-1 {
+  width: 8.33%;
+}
+.col-sm-2 {
+  width: 16.66%;
+}
+.col-sm-3 {
+  width: 25%;
+}
+.col-sm-4 {
+  width: 33.33%;
+}
+.col-sm-5 {
+  width: 41.66%;
+}
+.col-sm-6 {
+  width: 50%;
+}
+.col-sm-7 {
+  width: 58.33%;
+}
+.col-sm-8 {
+  width: 66.66%;
+}
+.col-sm-9 {
+  width: 74.99%;
+}
+.col-sm-10 {
+  width: 83.33%;
+}
+.col-sm-11 {
+  width: 91.66%;
+}
+.col-sm-12 {
+  width: 100%;
+}
+}
+</style>
+<body>
+    <h1>Our Menu</h1>
+    <div class="row">
+    <div class="container col-lg-4 col-md-6 col-sm-12">
+        <section>
+        <div id="chicken">
+            Chicken
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        </section>
+    </div>
+    <div class="container col-lg-4 col-md-6 col-sm-12">
+        <section>
+        <div id="beef">
+            Beef
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        </section>
+    </div>
+    <div class="container col-lg-4 col-md-12 col-sm-12">
+        <section>
+        <div id="sushi">
+            Sushi
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        </section>
+    </div>
+    </div>
+</body>
+</html>
